@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@react-native-firebase/app": "^18.8.0"
+    "@react-native-firebase/app": "^18.8.0",
+    "@tensorflow/tfjs": "^4.17.0"
   }
 }
