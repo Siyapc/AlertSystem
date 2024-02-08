@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1015199498553",
+    "project_id": "alertsystem-120de",
+    "storage_bucket": "alertsystem-120de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015199498553:android:0d29b1363d687078c4a8e8",
+        "android_client_info": {
+          "package_name": "com.cp6.ViolenceAlertSystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB74lErtgWAXHlzDc53y78VZd43WwpD9UE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

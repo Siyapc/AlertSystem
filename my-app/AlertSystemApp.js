@@ -1,5 +1,3 @@
-// AlertSystemApp.js
-
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, TouchableOpacity, TextInput, Image } from 'react-native';
 import ImagePicker from 'react-native-image-picker';
@@ -30,16 +28,7 @@ const AlertSystemApp = () => {
       <TouchableOpacity style={styles.uploadButton} onPress={handleImageUpload}>
         <Text style={styles.buttonText}>Upload Image</Text>
       </TouchableOpacity>
-      <TextInput
-        style={styles.input}
-        placeholder="Enter your alert message"
-        onChangeText={(text) => setAlertMessage(text)}
-        value={alertMessage}
-        multiline={true}
-      />
-      <TouchableOpacity style={styles.button} onPress={handleAlertSubmit}>
-        <Text style={styles.buttonText}>Submit Alert</Text>
-      </TouchableOpacity>
+
     </View>
   );
 };
@@ -51,24 +40,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 20,
     color: '#ffebcd', 
-  },
-  input: {
-    
-    width: '100%',
-    height: 100,
-    borderWidth: 1,
-    borderColor: '#ccc',
-    borderRadius: 8,
-    paddingHorizontal: 60,
-    marginBottom: 30,
-    backgroundColor: '#fff',
-  },
-  button: {
-    backgroundColor: '#8b0000', 
-    paddingVertical: 12,
-    paddingHorizontal: 30,
-    borderRadius: 8,
-    marginBottom: 20,
+    fontFamily: 'Roboto', // Change this to your desired font family
   },
   uploadButton: {
     backgroundColor: '#8b0000', 
@@ -80,7 +52,7 @@ const styles = StyleSheet.create({
   buttonText: {
     textAlign: 'center',
     color: '#fff',
-    fontSize: 16,
+    fontSize: 20,
     fontWeight: 'bold',
   },
   image: {
